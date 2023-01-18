@@ -25,9 +25,10 @@ createNewElement('counter-container', 'div', 'display-number', 'display-number',
 createNewElement('counter-container', 'div', 'button-container', 'button-container', '');
 createNewElement('counter-container', 'div', 'title-container', 'title-container', '');
 
-
+//add button element inside container
 createNewElement('button-container', 'button', 'button-el', 'decrement-button', '-');
 createNewElement('button-container', 'button', 'button-el', 'reset-button', 'reset');
 createNewElement('button-container', 'button', 'button-el', 'increment-button', '+');
 
-createNewElement();
+//add title element
+createNewElement('title-container', 'h1', 'title', 'count things');
