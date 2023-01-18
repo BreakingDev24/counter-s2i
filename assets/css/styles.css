@@ -14,4 +14,18 @@
   align-items: center;
   justify-content: center;
   font-size: 1.4rem;
+}
+
+#counter-container {
+  background-color: #74959A;
+  height: 75%;
+  width: 90vw;
+  max-width: 500px;
+  padding: 30px 20px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }/*# sourceMappingURL=styles.css.map */
