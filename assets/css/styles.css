@@ -1,1 +1,17 @@
-/*# sourceMappingURL=styles.css.map */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#body-wrap {
+  font-family: "Roboto", "sans-serif";
+  background-color: #24232b;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+}/*# sourceMappingURL=styles.css.map */
