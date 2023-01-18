@@ -26,7 +26,8 @@ createNewElement('counter-container', 'div', 'button-container', 'button-contain
 createNewElement('counter-container', 'div', 'title-container', 'title-container', '');
 
 
-createNewElement();
-createNewElement();
-createNewElement();
+createNewElement('button-container', 'button', 'button-el', 'decrement-button', '-');
+createNewElement('button-container', 'button', 'button-el', 'reset-button', 'reset');
+createNewElement('button-container', 'button', 'button-el', 'increment-button', '+');
+
 createNewElement();
