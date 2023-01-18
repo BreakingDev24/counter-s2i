@@ -16,3 +16,17 @@ const createNewElement = (parent, tagHtml, className, idName, content) => {
 
     parentElement.appendChild(newElement)//insert element in dom
 }
+
+//add counter container
+createNewElement('body-wrap', 'div', 'counter-container', 'counter-container', '');
+
+//add container section
+createNewElement('counter-container', 'div', 'display-number', 'display-number', '0');
+createNewElement('counter-container', 'div', 'button-container', 'button-container', '');
+createNewElement('counter-container', 'div', 'title-container', 'title-container', '');
+
+
+createNewElement();
+createNewElement();
+createNewElement();
+createNewElement();
