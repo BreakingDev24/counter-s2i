@@ -31,4 +31,4 @@ createNewElement('button-container', 'button', 'button-el', 'reset-button', 'res
 createNewElement('button-container', 'button', 'button-el', 'increment-button', '+');
 
 //add title element
-createNewElement('title-container', 'h1', 'title', 'title', 'count things');
+createNewElement('title-container', 'h1', 'title', 'title', 'Count It');
