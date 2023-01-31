@@ -8,9 +8,9 @@ let counter = 0;
 
 //event listener: event delegation
 buttonContainer.addEventListener('click', (e) => {
-    let target = e.target;
+    let eventTarget = e.target;
 
-    switch(target.id) {
+    switch(eventTarget.id) {
         case 'decrement-button':
             counter--
             break;
