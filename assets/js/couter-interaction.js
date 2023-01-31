@@ -1,28 +1,26 @@
-//variables 
-let incrementButton = document.getElementById('increment-button');
-let decrementButton = document.getElementById('decrement-button');
-let resetButton = document.getElementById('reset-button');
+
+//variables
 let displayNumber = document.getElementById('display-number');
+let buttonContainer = document.getElementById('button-container');
 
 //set counter to initial value
-
 let counter = 0;
 
-//event listener: increment, decrement, reset
+//event listener: event delegation
+buttonContainer.addEventListener('click', (e) => {
+    let target = e.target;
 
-incrementButton.addEventListener('click', ()=>{
-    counter++;
-    displayNumber.innerText = counter
-});
-
-decrementButton.addEventListener('click', ()=>{
-    counter--;
-    displayNumber.innerText = counter
-})
-
-resetButton.addEventListener('click', ()=>{
-    if(window.confirm('Do you want reset the counter?')) {
-        counter = 0
-        displayNumber.innerText = counter
+    switch(target.id) {
+        case 'decrement-button':
+            counter--
+            break;
+        case 'reset-button':
+            counter = 0;
+            break;
+        case 'increment-button':
+            counter++;
+            break;
     }
+
+    displayNumber.innerText = counter
 })
