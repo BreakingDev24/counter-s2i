@@ -12,7 +12,7 @@ buttonContainer.addEventListener('click', (e) => {
 
     switch(eventTarget.id) {
         case 'decrement-button':
-            counter--
+            counter--;
             break;
 
         case 'reset-button':
