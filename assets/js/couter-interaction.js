@@ -14,9 +14,13 @@ buttonContainer.addEventListener('click', (e) => {
         case 'decrement-button':
             counter--
             break;
+
         case 'reset-button':
-            counter = 0;
+            if(window.confirm('Do you want reset the counter?')) {
+                counter = 0   
+            }
             break;
+            
         case 'increment-button':
             counter++;
             break;
